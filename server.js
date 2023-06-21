@@ -1,7 +1,7 @@
 const bodyParser = require("body-parser");
 
 const loginRoute = require("./routes/login");
-const usersRoute = require("./routes/users");
+const usersRoute = require("./routes/addUser");
 
 const express = require("express");
 const app = express();
